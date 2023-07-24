@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="index.css">
+
+    <title>Age Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <div class="main-title">
+                <h3>Age Calculator</h3>
+            </div>
+    <hr class="line-break">
+    <div class="input_field">
+        <label for="date" class="input-label">Birthdays</label>
+        <input type="date" name="date" id="date">
+        <span id="error"></span>
+    </div>
+    <div class="input_field">
+        <button type="button" class="btn-submit"
+         onclick="calculateAge()">Get Age</button>
+      </div>   
+        </form>
+        <div id="age"></div>
+    </div>
+    
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+<script src="index.js"></script>
+  
+</html>
